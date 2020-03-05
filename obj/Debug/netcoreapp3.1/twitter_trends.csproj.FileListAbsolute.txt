@@ -1,0 +1,15 @@
+/Users/lavpathak/Projects/twitter_trends/bin/Debug/netcoreapp3.1/twitter_trends.deps.json
+/Users/lavpathak/Projects/twitter_trends/bin/Debug/netcoreapp3.1/twitter_trends.runtimeconfig.json
+/Users/lavpathak/Projects/twitter_trends/bin/Debug/netcoreapp3.1/twitter_trends.runtimeconfig.dev.json
+/Users/lavpathak/Projects/twitter_trends/bin/Debug/netcoreapp3.1/twitter_trends.dll
+/Users/lavpathak/Projects/twitter_trends/bin/Debug/netcoreapp3.1/twitter_trends.pdb
+/Users/lavpathak/Projects/twitter_trends/obj/Debug/netcoreapp3.1/twitter_trends.csprojAssemblyReference.cache
+/Users/lavpathak/Projects/twitter_trends/obj/Debug/netcoreapp3.1/twitter_trends.AssemblyInfoInputs.cache
+/Users/lavpathak/Projects/twitter_trends/obj/Debug/netcoreapp3.1/twitter_trends.AssemblyInfo.cs
+/Users/lavpathak/Projects/twitter_trends/obj/Debug/netcoreapp3.1/twitter_trends.dll
+/Users/lavpathak/Projects/twitter_trends/obj/Debug/netcoreapp3.1/twitter_trends.pdb
+/Users/lavpathak/Projects/twitter_trends/bin/Debug/netcoreapp3.1/Flurl.dll
+/Users/lavpathak/Projects/twitter_trends/bin/Debug/netcoreapp3.1/Flurl.Http.dll
+/Users/lavpathak/Projects/twitter_trends/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/Users/lavpathak/Projects/twitter_trends/obj/Debug/netcoreapp3.1/twitter_trends.csproj.CopyComplete
+/Users/lavpathak/Projects/twitter_trends/bin/Debug/netcoreapp3.1/RestSharp.dll
