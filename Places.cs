@@ -35,7 +35,7 @@ namespace twitter_trends
 
         public String FindWoeId(String name)
         {
-            return List.FirstOrDefault(p => p.Value == name).Key;
+            return List.FirstOrDefault(p => p.Value.Equals(name, StringComparison.OrdinalIgnoreCase)).Key;
         }
     }
 }

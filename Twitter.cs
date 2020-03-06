@@ -23,7 +23,7 @@ namespace twitter_trends
         {
             var client = new RestClient(Constants.API_BASE_URL);
             client.Authenticator = OAuth1Authenticator.ForProtectedResource(_consumerApiKey, _consumerApiSecretKey, _accessToken, _accessTokenSecret);
-            var request = new RestRequest(Constants.TRENDS_PATH,Method.GET,DataFormat.Json).AddQueryParameter("id", "2450022");
+            var request = new RestRequest(Constants.TRENDS_PATH,Method.GET,DataFormat.Json).AddQueryParameter("id", location);
             var response = client.Get(request);
             Console.WriteLine(response.Content);
         }
