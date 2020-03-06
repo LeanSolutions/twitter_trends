@@ -4,19 +4,19 @@ using RestSharp.Authenticators;
 
 namespace twitter_trends 
 {
-    public class TwitterClient 
+    public class Twitter 
     {
         private string _consumerApiKey;
         private string _consumerApiSecretKey;
         private string _accessToken;
         private string _accessTokenSecret;
 
-        public TwitterClient() 
+        public Twitter() 
         {
-            _consumerApiKey = Environment.GetEnvironmentVariable(Constants.ENVIRONMENT_VARIABLE_NAME_FOR_API_KEY);
-            _consumerApiSecretKey = Environment.GetEnvironmentVariable(Constants.ENVIRONMENT_VARIABLE_NAME_FOR_API_SECRET_KEY);
-            _accessToken = Environment.GetEnvironmentVariable(Constants.ENVIRONMENT_VARIABLE_NAME_FOR_ACCESS_TOKEN);
-            _accessTokenSecret = Environment.GetEnvironmentVariable(Constants.ENVIRONMENT_VARIABLE_NAME_FOR_ACCESS_TOKEN_SECRET);
+            this._consumerApiKey = Environment.GetEnvironmentVariable(Constants.ENVIRONMENT_VARIABLE_NAME_FOR_API_KEY);
+            this._consumerApiSecretKey = Environment.GetEnvironmentVariable(Constants.ENVIRONMENT_VARIABLE_NAME_FOR_API_SECRET_KEY);
+            this._accessToken = Environment.GetEnvironmentVariable(Constants.ENVIRONMENT_VARIABLE_NAME_FOR_ACCESS_TOKEN);
+            this._accessTokenSecret = Environment.GetEnvironmentVariable(Constants.ENVIRONMENT_VARIABLE_NAME_FOR_ACCESS_TOKEN_SECRET);
         }
 
         public void GetTrendsNear(string location) 

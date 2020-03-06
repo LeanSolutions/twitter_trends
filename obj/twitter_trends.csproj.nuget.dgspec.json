@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/lavpathak/Projects/twitter_trends/twitter_trends.csproj": {}
+    "/Users/lavpathak/Projects/Playground/twitter_trends/twitter_trends.csproj": {}
   },
   "projects": {
-    "/Users/lavpathak/Projects/twitter_trends/twitter_trends.csproj": {
+    "/Users/lavpathak/Projects/Playground/twitter_trends/twitter_trends.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/lavpathak/Projects/twitter_trends/twitter_trends.csproj",
+        "projectUniqueName": "/Users/lavpathak/Projects/Playground/twitter_trends/twitter_trends.csproj",
         "projectName": "twitter_trends",
-        "projectPath": "/Users/lavpathak/Projects/twitter_trends/twitter_trends.csproj",
+        "projectPath": "/Users/lavpathak/Projects/Playground/twitter_trends/twitter_trends.csproj",
         "packagesPath": "/Users/lavpathak/.nuget/packages/",
-        "outputPath": "/Users/lavpathak/Projects/twitter_trends/obj/",
+        "outputPath": "/Users/lavpathak/Projects/Playground/twitter_trends/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/lavpathak/.nuget/NuGet/NuGet.Config"
@@ -36,6 +36,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[15.0.1, )"
+            },
             "RestSharp": {
               "target": "Package",
               "version": "[106.10.1, )"

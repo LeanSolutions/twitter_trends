@@ -8,12 +8,24 @@
     ".NETCoreApp,Version=v3.1": {
       "twitter_trends/1.0.0": {
         "dependencies": {
+          "CsvHelper": "15.0.1",
           "RestSharp": "106.10.1",
           "Flurl": "2.8.2",
           "Flurl.Http": "2.4.2"
         },
         "runtime": {
           "twitter_trends.dll": {}
+        }
+      },
+      "CsvHelper/15.0.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/CsvHelper.dll": {
+            "assemblyVersion": "15.0.0.0",
+            "fileVersion": "15.0.1.0"
+          }
         }
       },
       "Flurl/2.8.2": {
@@ -37,6 +49,7 @@
           }
         }
       },
+      "Microsoft.CSharp/4.5.0": {},
       "Microsoft.NETCore.Platforms/2.1.2": {},
       "Newtonsoft.Json/12.0.2": {
         "runtime": {
@@ -69,6 +82,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "CsvHelper/15.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cp8HCY1PWddLy8tllAOv7T8We67fg/7B40JiBaTLM252FQDVA0XvrmfVeqHDJBGbnXwyakpnAd8F2ELDZb8ZxQ==",
+      "path": "csvhelper/15.0.1",
+      "hashPath": "csvhelper.15.0.1.nupkg.sha512"
+    },
     "Flurl/2.8.2": {
       "type": "package",
       "serviceable": true,
@@ -82,6 +102,13 @@
       "sha512": "sha512-VfSJ0DKzh6kf2IOZGG1/JpHajhtqzGp1t+M1QSyFGse7c4Gg1DpH80LTveYea2hV1BEtvPPEp6A4iZ78D8bxGQ==",
       "path": "flurl.http/2.4.2",
       "hashPath": "flurl.http.2.4.2.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
+      "path": "microsoft.csharp/4.5.0",
+      "hashPath": "microsoft.csharp.4.5.0.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/2.1.2": {
       "type": "package",
