@@ -13,6 +13,7 @@ namespace twitter_trends
 
             if(args.Length==0) 
             {
+                //ToDo: Support places with blank spaces in the name
                 Console.WriteLine("Please enter at least one location.");
                 return;
             }
@@ -25,7 +26,8 @@ namespace twitter_trends
                     return;
                 }
                 Twitter client = new Twitter();
-                client.GetTrendsNear(allSupportedPlaces.FindWoeId(location));
+                var trends = client.GetTrendsNear(allSupportedPlaces.FindWoeId(location));
+                Console.WriteLine(JsonFormatter.Format(trends));
             }
             Console.ReadLine();
         }

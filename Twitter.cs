@@ -19,13 +19,13 @@ namespace twitter_trends
             this._accessTokenSecret = Environment.GetEnvironmentVariable(Constants.ENVIRONMENT_VARIABLE_NAME_FOR_ACCESS_TOKEN_SECRET);
         }
 
-        public void GetTrendsNear(string location) 
+        public String GetTrendsNear(string location) 
         {
             var client = new RestClient(Constants.API_BASE_URL);
             client.Authenticator = OAuth1Authenticator.ForProtectedResource(_consumerApiKey, _consumerApiSecretKey, _accessToken, _accessTokenSecret);
             var request = new RestRequest(Constants.TRENDS_PATH,Method.GET,DataFormat.Json).AddQueryParameter("id", location);
             var response = client.Get(request);
-            Console.WriteLine(response.Content);
+            return response.Content;
         }
     }
 }

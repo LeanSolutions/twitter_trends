@@ -40,6 +40,14 @@
               "target": "Package",
               "version": "[15.0.1, )"
             },
+            "Json.Net": {
+              "target": "Package",
+              "version": "[1.0.18, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.10.2, )"
+            },
             "RestSharp": {
               "target": "Package",
               "version": "[106.10.1, )"
