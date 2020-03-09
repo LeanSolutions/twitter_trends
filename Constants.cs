@@ -11,5 +11,6 @@ namespace twitter_trends {
         public static readonly string API_BASE_URL = "https://api.twitter.com/1.1";
         public static readonly string TRENDS_PATH = "/trends/place.json";
         public static readonly string PATH_TO_WOEID_CSV = Directory.GetCurrentDirectory()+ "/data/woeids.csv";
+        public static readonly string DB_NAME = "twitter_trends";
     }
 }
